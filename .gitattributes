@@ -1,0 +1,17 @@
+＃自动检测文本文件并执行LF规范化
+*  文字 = 自动
+
+＃自定义为Visual Studio
+* .cs      diff = csharp
+
+
+* .doc 	 diff = astextplain
+* .DOC 	 diff = astextplain
+* .docx  diff = astextplain
+* .DOCX  diff = astextplain
+* .dot   diff = astextplain
+* .DOT   diff = astextplain
+* .pdf   diff = astextplain
+* .PDF 	 diff = astextplain
+* .rtf 	 diff = astextplain
+* .RTF 	 差异 = astextplain
